@@ -1,10 +1,5 @@
 import streamlit as st
-import webbrowser
-import pandas as pd
-import psycopg2
-from streamlit_option_menu import option_menu
-import requests
-from IPython.display import HTML
+
 
 st.markdown("# Fundamentos Fiscais📄")
 st.sidebar.markdown("- REGIME TRIBUTÁRIO ")
