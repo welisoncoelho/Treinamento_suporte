@@ -1,6 +1,5 @@
 import streamlit as st
-import pandas as pd
-from IPython.display import HTML
+
 
 st.markdown("# Nfast 📘")
 
