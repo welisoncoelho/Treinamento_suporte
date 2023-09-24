@@ -1,8 +1,4 @@
 import streamlit as st
-import webbrowser
-import pandas as pd
-import psycopg2
-from streamlit_option_menu import option_menu
 
 st.markdown("# Fundamentos Fiscais📄")
 st.sidebar.markdown("- O QUE É UM CFOP")
