@@ -1,12 +1,5 @@
 import streamlit as st
-import webbrowser
-import pandas as pd
-import psycopg2
-from streamlit_option_menu import option_menu
-import pickle
-from pathlib import Path
-import streamlit_authenticator as stauth  # pip install streamlit-authenticator
-   
+
 
 st.markdown("Seja Bem Vindo")    
 st.markdown("# ÁREA DE TREINAMENTO FISCAL📄")
