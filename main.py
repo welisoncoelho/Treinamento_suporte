@@ -112,7 +112,14 @@ if hasattr(st.session_state, "page") and st.session_state.page == "financeiro":
 
         # Use o IPython para incorporar o vídeo
         video_html = f'<iframe src="{video_url}" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe>'
-        st.markdown(video_html, unsafe_allow_html=True)  
+        st.markdown(video_html, unsafe_allow_html=True) 
+
+        st.markdown("## Faturamento Automático")
+        video_url = 'https://drive.google.com/file/d/1-49rvelHbaY7sBzfgM6Lgqv0r5IdFdhH/preview'
+
+        # Use o IPython para incorporar o vídeo
+        video_html = f'<iframe src="{video_url}" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe>'
+        st.markdown(video_html, unsafe_allow_html=True)   
 
     elif module_selection == "EMSYSTRR":
         st.markdown("## Área de Treinamento EMSYSTRR")
