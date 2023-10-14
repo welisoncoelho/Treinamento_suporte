@@ -116,7 +116,10 @@ if hasattr(st.session_state, "page") and st.session_state.page == "financeiro":
 
         st.markdown("## Faturamento Automático")
         video_url = 'https://drive.google.com/file/d/1-49rvelHbaY7sBzfgM6Lgqv0r5IdFdhH/preview'
-
+         # Adicione um botão para download do PDF
+        if st.button("Baixar Documento Faturamento automático"):
+            pdf_url = 'https://drive.google.com/uc?id=1-980zZ89OuJc6pSA9-DnpzEmEaBBpbvo'
+            st.markdown(f'Download do [Documento Fiscal]({pdf_url})')
         # Use o IPython para incorporar o vídeo
         video_html = f'<iframe src="{video_url}" width="640" height="360" frameborder="0" allowfullscreen="true"></iframe>'
         st.markdown(video_html, unsafe_allow_html=True)   
